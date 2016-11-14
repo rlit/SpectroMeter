@@ -1,4 +1,5 @@
 function [ M,S ] = laplacian( V, F )
+% this function was written by Matthias Vestner from TU munich
 
 M = massmatrix(V,F);
 S = stiffnessmatrix(V,F);
